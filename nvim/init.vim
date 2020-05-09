@@ -9,9 +9,13 @@ Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
 set nocompatible
-if (has("termguicolors"))
-  set termguicolors
-endif
+"if (has("termguicolors"))
+"  set termguicolors
+"endif
+
+"set hybrid line number
+set number
+set relativenumber
 
 syntax enable
 colorscheme nord
