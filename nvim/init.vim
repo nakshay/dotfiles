@@ -20,6 +20,7 @@ set nocompatible
 "NERDTree config
 
 map <silent> <C-p> :NERDTreeToggle<CR>
+map <silent> <C-o> :NERDTreeFocus<CR>
 
 
 "set hybrid line number
