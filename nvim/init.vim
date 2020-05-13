@@ -11,6 +11,7 @@ Plug 'junegunn/fzf'
 Plug 'scrooloose/nerdtree'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'itchyny/vim-gitbranch'
 
 call plug#end()
 
@@ -31,3 +32,12 @@ set relativenumber
 syntax enable
 colorscheme nord
 
+let g:lightline = {
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'gitbranch#name'
+      \ },
+      \ }
