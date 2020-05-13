@@ -9,16 +9,17 @@ call plug#begin(expand('~/.vim/plugged'))
 Plug 'arcticicestudio/nord-vim'
 Plug 'junegunn/fzf'
 Plug 'scrooloose/nerdtree'
+Plug 'itchyny/lightline.vim'
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
 set nocompatible
-"if (has("termguicolors"))
-"  set termguicolors
-"endif
+if (has("termguicolors"))
+  set termguicolors
+endif
 
 "NERDTree config
-
 map <silent> <C-p> :NERDTreeToggle<CR>
 map <silent> <C-o> :NERDTreeFocus<CR>
 
