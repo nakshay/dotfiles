@@ -19,6 +19,8 @@ if (has("termguicolors"))
   set termguicolors
 endif
 
+let g:airline_powerline_fonts = 1
+
 "NERDTree config
 map <silent> <C-p> :NERDTreeToggle<CR>
 map <silent> <C-o> :NERDTreeFocus<CR>
