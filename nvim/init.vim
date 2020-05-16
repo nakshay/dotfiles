@@ -11,6 +11,8 @@ Plug 'junegunn/fzf'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
@@ -24,6 +26,7 @@ let g:airline_powerline_fonts = 1
 "NERDTree config
 map <silent> <C-p> :NERDTreeToggle<CR>
 map <silent> <C-o> :NERDTreeFocus<CR>
+map <silent> <C-f> :Files<CR>
 
 
 "set hybrid line number
