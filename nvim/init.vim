@@ -10,7 +10,7 @@ endif
 
 call plug#begin(expand('~/.config/nvim/plugged'))
 
-Plug 'arcticicestudio/nord-vim'
+Plug 'chriskempson/base16-vim'
 Plug 'junegunn/fzf'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
@@ -25,12 +25,13 @@ if (has("termguicolors"))
   set termguicolors
 endif
 
+"airline config
 let g:airline_powerline_fonts = 1
 
 "NERDTree config
-map <silent> <C-p> :NERDTreeToggle<CR>
+map <silent> <C-n> :NERDTreeToggle<CR>
 map <silent> <C-o> :NERDTreeFocus<CR>
-map <silent> <C-f> :Files<CR>
+map <silent> <C-p> :Files<CR>
 
 
 "set hybrid line number
@@ -38,4 +39,5 @@ set number
 set relativenumber
 
 syntax enable
-colorscheme nord
+colorscheme base16-default-dark
+let base16colorspace=256  " Access colors present in 256 colorspace
