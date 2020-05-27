@@ -15,6 +15,7 @@ Plug 'junegunn/fzf'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
@@ -27,7 +28,7 @@ endif
 
 "airline config
 let g:airline_powerline_fonts = 1
-
+let g:airline_theme='powerlineish'
 "NERDTree config
 map <silent> <C-n> :NERDTreeToggle<CR>
 map <silent> <C-o> :NERDTreeFocus<CR>
