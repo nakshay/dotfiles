@@ -1,6 +1,6 @@
 # dotfiles
 
-I use stow to manage my dotfiles. See how to use section for more information.
+I use stow to manage my dotfiles. See `How to use` section for more information.
 
 
 
@@ -9,7 +9,7 @@ I use stow to manage my dotfiles. See how to use section for more information.
 
 # How to use:  
 
-If you want to learn how to manage dot files without the hassle then you need to lern about GNU stow.
+If you want to learn how to manage dot files without the hassle then you might want to look at GNU stow.
 
 A video on stow from [DevInsideYou](https://youtu.be/CFzEuBGPPPg) is very helpul if you want more details.
 
