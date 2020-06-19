@@ -11,7 +11,7 @@ I use stow to manage my dotfiles. See `How to use` section for more information.
 
 If you want to learn how to manage dot files without the hassle then you might want to look at GNU stow.
 
-A video on stow from [DevInsideYou](https://youtu.be/CFzEuBGPPPg) is very helpul if you want more details.
+A video on stow from [DevInsideYou](https://youtu.be/CFzEuBGPPPg) is very helpful if you want more details.
 
 # Quick steps :
 
