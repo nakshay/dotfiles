@@ -9,6 +9,8 @@ I use stow to manage my dotfiles. See `How to use` section for more information.
 
 # How to use:  
 
+### Warning : Take a backup of your config files manually before running any of below command.
+
 If you want to learn how to manage dot files without the hassle then you might want to look at GNU stow.
 
 A video on stow from [DevInsideYou](https://youtu.be/CFzEuBGPPPg) is very helpful if you want more details.
