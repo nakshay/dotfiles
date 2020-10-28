@@ -10,7 +10,7 @@ endif
 
 call plug#begin(expand('~/.config/nvim/plugged'))
 
-Plug 'chriskempson/base16-vim'
+Plug 'arcticicestudio/nord-vim'
 Plug 'junegunn/fzf'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
@@ -40,5 +40,5 @@ set number
 set relativenumber
 
 syntax enable
-colorscheme base16-default-dark
+colorscheme nord
 let base16colorspace=256  " Access colors present in 256 colorspace
