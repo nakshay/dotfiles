@@ -28,6 +28,7 @@ endif
 
 "airline config
 let g:airline_powerline_fonts = 1
+let g:nord_uniform_status_lines = 0
 let g:airline_theme='powerlineish'
 "NERDTree config
 map <silent> <C-n> :NERDTreeToggle<CR>
@@ -41,4 +42,3 @@ set relativenumber
 
 syntax enable
 colorscheme nord
-let base16colorspace=256  " Access colors present in 256 colorspace
